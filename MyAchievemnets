@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements - Dev</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+        .topnav a {
+            float: left;
+            color: #1affa3;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .topnav a.active {
+            background-color: #ffe066;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .certificate-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .certificate-card:hover {
+            transform: translateY(-5px);
+        }
+        .certificate-card h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .certificate-card p {
+            color: #666;
+            font-size: 14px;
+        }
+        .view-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #1affa3;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .view-btn:hover {
+            background-color: #17c296;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="myProjects.html">My Projects</a>
+    <a class="active" href="Achievements.html">Achievements</a>
+    <a href="https://playgama.com/category/action?pinned_game=rooftop-run">Play A Game</a>
+</div>
+
+<div class="container">
+    <div class="certificate-card">
+        <h3>Intermediate AI Programmer</h3>
+        <p>Issued: Feb 04, 2025</p>
+        <p>Verified ID: 4b4e18a441be</p>
+        <a href="attached_assets/Intermediate_AI_Programmer_Certificate_1772560334312.pdf" class="view-btn" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="certificate-card">
+        <h3>Scratch Developer</h3>
+        <p>Issued: Dec 17, 2024</p>
+        <p>Verified ID: cde94ff409fa</p>
+        <a href="attached_assets/Scratch_Developer_Certificate_1772560365435.pdf" class="view-btn" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="certificate-card">
+        <h3>Intermediate Website Developer</h3>
+        <p>Issued: Aug 19, 2025</p>
+        <p>Verified ID: b65d2c345e80</p>
+        <a href="attached_assets/Intermediate_Website_Developer_Certificate_1772560211012.pdf" class="view-btn" target="_blank">View Certificate</a>
+    </div>
+</div>
+
+<footer>&copy; 2026 Dev Nair</footer>
+
+</body>
+</html>
